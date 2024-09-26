@@ -10,12 +10,12 @@ import SwiftUI
 struct UserAlbumView: View {
     @StateObject private var viewModel = UserAlbumViewModel()
     var userId: Int
-    
+
     let columns = [
         GridItem(.flexible()),
-        GridItem(.flexible()),
+        GridItem(.flexible())
     ]
-    
+
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns, alignment: .leading, spacing: 8) {

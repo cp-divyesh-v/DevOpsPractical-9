@@ -10,11 +10,11 @@ import Foundation
 class PhotoViewModel: ObservableObject {
     private let webService: WebService
     @Published var photos: [PhotosAPIResponse] = []
-    
+
     init(webService: WebService = WebService()) {
         self.webService = webService
     }
-    
+
     func getUsersDetails(_ parameter: Int) {
         webService.request(url: "http://jsonplaceholder.typicode.com/photos?albumId=\(parameter)", method: .get, parameter: [:], headers: nil,
             success: { (_, _, photos: [PhotosAPIResponse]) in

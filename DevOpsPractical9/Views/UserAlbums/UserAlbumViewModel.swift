@@ -10,11 +10,11 @@ import Foundation
 class UserAlbumViewModel: ObservableObject {
     private let webService: WebService
     @Published var usersAlbum: [UserAlbumAPIResponse] = []
-    
+
     init(webService: WebService = WebService()) {
         self.webService = webService
     }
-    
+
     func getUsersDetails(_ parameter: Int) {
         webService.request(url: "https://jsonplaceholder.typicode.com/albums?userId=\(parameter)", method: .get, parameter: [:], headers: nil,
             success: { (_, _, usersAlbum: [UserAlbumAPIResponse]) in

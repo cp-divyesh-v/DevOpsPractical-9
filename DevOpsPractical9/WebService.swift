@@ -15,8 +15,8 @@ class WebService: NSObject {
                                headers: HTTPHeaders?,
                                success: @escaping (Data, Int, T) -> Void,
                                failure: @escaping (Error) -> Void) {
-        
-        AF.request(url, method: method, parameters: parameter, encoding: URLEncoding.queryString, headers: headers).responseDecodable(of: T.self) { responseObject -> Void in
+
+        AF.request(url, method: method, parameters: parameter, encoding: URLEncoding.queryString, headers: headers).responseDecodable(of: T.self) { responseObject in
             switch responseObject.result {
             case .success(let value):
                 if let data = responseObject.data {

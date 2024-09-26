@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct UserListView: View {
-    
+
     @StateObject private var viewModel = UserViewModel()
-    
+
     var body: some View {
         NavigationView {
             ScrollView(.vertical) {
-                
+
                 Text("User List")
                     .font(.title)
                     .fontWeight(.semibold)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
-                
+
                 LazyVStack(alignment: .leading, spacing: 16) {
                     ForEach(viewModel.users, id: \.self) { user in
                         NavigationLink(destination: UserAlbumView(userId: user.id)) {
@@ -53,7 +53,7 @@ struct UserListView: View {
         }
         .background {
             NavigationLink(destination: UserAlbumView(userId: 1)) {
-                
+
             }
         }
     }
