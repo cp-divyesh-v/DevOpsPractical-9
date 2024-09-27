@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22200356DC2F433DDE399753 /* Pods_DevOpsPractical9Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DDB1AF6C1A0CBE072A886B /* Pods_DevOpsPractical9Tests.framework */; };
+		2A5E67962CA6EAD100687189 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2A5E67952CA6EAD100687189 /* Secrets.xcconfig */; };
 		2A8CCA2B2CA51A6400273B6F /* Pods_DevOpsPractical9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8CCA2A2CA51A6400273B6F /* Pods_DevOpsPractical9.framework */; };
 		2A8CCA2E2CA51A8100273B6F /* Pods_DevOpsPractical9.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A91FAFDF297B35C97661C37 /* Pods_DevOpsPractical9.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2AE309C52BE6073900DDA812 /* DevOpsPractical9App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE309C42BE6073900DDA812 /* DevOpsPractical9App.swift */; };
@@ -67,6 +68,7 @@
 		0B143BECD5A333167989CFBD /* Pods-DevOpsPractical9-DevOpsPractical9UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical9-DevOpsPractical9UITests.release.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical9-DevOpsPractical9UITests/Pods-DevOpsPractical9-DevOpsPractical9UITests.release.xcconfig"; sourceTree = "<group>"; };
 		11DDB1AF6C1A0CBE072A886B /* Pods_DevOpsPractical9Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevOpsPractical9Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D2E3D5D9C99DF3CB51DFED /* Pods_DevOpsPractical9_DevOpsPractical9UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevOpsPractical9_DevOpsPractical9UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5E67952CA6EAD100687189 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		2A8CCA2A2CA51A6400273B6F /* Pods_DevOpsPractical9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DevOpsPractical9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE309C12BE6073900DDA812 /* DevOpsPractical9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevOpsPractical9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE309C42BE6073900DDA812 /* DevOpsPractical9App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevOpsPractical9App.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				2AE309FF2BE6075C00DDA812 /* Views */,
 				2AE309EF2BE6075C00DDA812 /* WebService.swift */,
 				2AE309CB2BE6073A00DDA812 /* Preview Content */,
+				2A5E67952CA6EAD100687189 /* Secrets.xcconfig */,
 			);
 			path = DevOpsPractical9;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			files = (
 				2AE309CD2BE6073A00DDA812 /* Preview Assets.xcassets in Resources */,
 				2AE309C92BE6073A00DDA812 /* Assets.xcassets in Resources */,
+				2A5E67962CA6EAD100687189 /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +675,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DevOpsPractical9/Preview Content\"";
-				DEVELOPMENT_TEAM = HJ254N92X3;
+				DEVELOPMENT_TEAM = S985H2T7J8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -701,7 +705,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DevOpsPractical9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canopas.WinFamily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -723,7 +727,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DevOpsPractical9/Preview Content\"";
-				DEVELOPMENT_TEAM = HJ254N92X3;
+				DEVELOPMENT_TEAM = S985H2T7J8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -753,7 +757,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DevOpsPractical9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canopas.WinFamily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
